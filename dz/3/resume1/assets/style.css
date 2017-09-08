@@ -1,0 +1,45 @@
+body {
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+}
+
+div {
+    border: 1px solid black;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+}
+
+#q {
+    background-color: rgb(130,130,130);
+}
+
+#w {
+    background-color: rgb(155,155,155);
+}
+
+#e {
+    background-color: rgb(180,180,180);
+}
+
+#r {
+    background-color: rgb(205,205,205);
+}
+
+#t {
+    background-color: rgb(230,230,230);
+}
+
+#y {
+    background-color: rgb(250,250,250);
+}
+
