@@ -1,0 +1,31 @@
+.column {
+    float: left;
+    width: 22px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.wdth {
+    width: 66px;
+}
+
+.marginL {
+    margin-left: -22px;
+}
+
+.marginR {
+    margin-left: 22px;
+}
+
+.marginRR {
+    margin-left: 44px;
+}
+
+.marginLL {
+    margin-left: -44px;
+}
