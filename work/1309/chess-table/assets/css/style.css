@@ -1,0 +1,80 @@
+td {
+    width: 50px;
+    height: 50px;
+}
+
+.black {
+    background-color: gray;
+}
+
+.linetop {
+    border-top-width: 4px;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+.lineright {
+    border-right-width: 4px;
+    border-right-color: black;
+    border-right-style: solid;
+    
+}
+
+.linebot {
+    border-bottom-width: 4px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.lineleft {
+    border-left-width: 4px;
+    border-left-color: 4px;
+    border-left-style: solid;
+}
+
+.noline {
+    border-color: white;
+}
+
+table {
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid gray;
+}
+
+.ladya {
+    background-image: url(../../assets/img/chess.png);
+    background-position-x: -103px;
+}
+
+.kon {
+    background-image: url(../../assets/img/chess.png);
+    background-position-x: -209px;
+}
+
+.slon {
+    background-image: url(../../assets/img/chess.png);
+    background-position-x: -156px;
+}
+
+.ferz {
+    background-image: url(../../assets/img/chess.png);
+    background-position-x: -49px;
+}
+
+.korol {
+    background-image: url(../../assets/img/chess.png);
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+
+.peshka {
+    background-image: url(../../assets/img/chess.png);
+    background-position-x: -260px;
+    background-repeat: no-repeat;
+}
+
+.wh {
+    background-position-y: -49px;
+   background-repeat: no-repeat;
+}
