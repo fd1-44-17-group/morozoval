@@ -1,0 +1,22 @@
+.cell {
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    float: left;
+    font-size: 4vw;
+    text-align: center;
+    vertical-align: middle;
+} 
+
+.row {
+    clear: both;
+}
+
+.none {
+    border: white;
+    margin-left: 2px
+}
+
+.black {
+    background-color: grey;
+}
