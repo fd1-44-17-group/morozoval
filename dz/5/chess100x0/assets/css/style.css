@@ -1,0 +1,17 @@
+body{
+    width: 56vw;
+    
+}
+
+.cell {
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    float: left;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.black {
+    background-color: grey;
+}
