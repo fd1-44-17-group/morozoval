@@ -1,0 +1,31 @@
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.line {
+    clear: both;
+}
+
+.bord {
+    width: 66px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.margin {
+    margin-right: 22px;
+}
+
+.marginmargin {
+    margin-right: -44px
+}
+
