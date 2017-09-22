@@ -1,0 +1,142 @@
+.chess-table {
+    width: 100vmin;
+    height: 100vmin;
+    text-align: center;
+    font-size: 4vw;
+}
+
+div div:nth-child(n) {
+    width: 10%;
+    height: 10%;
+    float: left;
+    line-height: 10vmin;
+}
+
+/*задаем цвет*/
+div div:nth-child(2n+12):not(:nth-child(2n+20)),
+div div:nth-child(2n+32):not(:nth-child(2n+40)),
+div div:nth-child(2n+52):not(:nth-child(2n+60)),
+div div:nth-child(2n+72):not(:nth-child(2n+80)),
+div div:nth-child(2n+23):not(:nth-child(2n+31)),
+div div:nth-child(2n+43):not(:nth-child(2n+51)),
+div div:nth-child(2n+63):not(:nth-child(2n+71)),
+div div:nth-child(2n+83):not(:nth-child(2n+91)) {
+    background-color: grey;
+}
+
+/*общие свойства для cell с фигурами*/
+div div:nth-child(n+12):not(:nth-child(n+20))::before,
+div div:nth-child(n+22):not(:nth-child(n+30))::before,
+div div:nth-child(n+82):not(:nth-child(n+90))::before,
+div div:nth-child(n+72):not(:nth-child(n+80))::before {
+    display: block;
+    content: "";
+    background-image: url(../img/chess.png);
+    height: 100%;
+    background-size: 50vmin 19vmin;
+    background-repeat: no-repeat;
+}
+
+/*смещение по Y*/
+div div:nth-child(n+82):not(:nth-child(n+90))::before,
+div div:nth-child(n+72):not(:nth-child(n+80))::before {
+    background-position-y: -10vmin;
+}
+
+/*ладьи*/
+div div:nth-child(70n+12)::before,
+div div:nth-child(70n+19)::before {
+    background-position-x: -16vmin;
+}
+
+/*кони*/
+div div:nth-child(70n+13)::before,
+div div:nth-child(70n+18)::before {
+    background-position-x: -34vmin;
+}
+
+/*слоны*/
+div div:nth-child(70n+14)::before,
+div div:nth-child(70n+17)::before {
+    background-position-x: -25vmin;
+}
+
+/*ферзь*/
+div div:nth-child(70n+15)::before {
+    background-position-x: -7vmin;
+}
+
+/*короли*/
+div div:nth-child(70n+16)::before  {
+    background-position-x: 1.5vmin;
+}
+
+/*пешки*/
+div div:nth-child(n+22):not(:nth-child(n+30))::before,
+div div:nth-child(n+72):not(:nth-child(n+80))::before {
+    background-position-x: -42.5vmin;
+}
+
+div div:nth-child(9n+11):not(:nth-child(n+21))::before {
+    content: "1";
+}
+
+div div:nth-child(9n+21):not(:nth-child(n+31))::before {
+    content: "2";
+}
+
+div div:nth-child(9n+31):not(:nth-child(n+41))::before {
+    content: "3";
+}
+
+div div:nth-child(9n+41):not(:nth-child(n+51))::before {
+    content: "4";
+}
+
+div div:nth-child(9n+51):not(:nth-child(n+61))::before {
+    content: "5";
+}
+
+div div:nth-child(9n+61):not(:nth-child(n+71))::before {
+    content: "6";
+}
+
+div div:nth-child(9n+71):not(:nth-child(n+81))::before {
+    content: "7";
+}
+
+div div:nth-child(9n+81):not(:nth-child(n+91))::before {
+    content: "8";
+}
+
+div div:nth-child(90n+2)::before {
+    content: "a";
+}
+
+div div:nth-child(90n+3)::before {
+    content: "b";
+}
+
+div div:nth-child(90n+4)::before {
+    content: "c";
+}
+
+div div:nth-child(90n+5)::before {
+    content: "d";
+}
+
+div div:nth-child(90n+6)::before {
+    content: "e";
+}
+
+div div:nth-child(90n+7)::before {
+    content: "f";
+}
+
+div div:nth-child(90n+8)::before {
+    content: "g";
+}
+
+div div:nth-child(90n+9)::before {
+    content: "h";
+}
