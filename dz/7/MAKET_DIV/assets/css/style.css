@@ -1,0 +1,52 @@
+body {
+    margin: auto;
+}
+
+#top,#bot {
+    text-align: center;
+    padding: 20px;
+    background-color: #6495ED;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#image {
+    float: left;
+    padding-right: 10px;
+}
+
+.backgrnd {
+    background-image: url(../img/ball.png);
+    background-repeat-x: no-repeat;
+    background-position: right;
+}
+
+#menu {
+    
+    width: 200px;
+
+    float: left;
+}
+
+#main {
+    padding: 10px;
+    margin-left: 200px;
+}
+
+#context {
+    background: url(../img/background.png) repeat-y, 
+                url(../img/ball.png) repeat-y 100% 0;
+}
+
+#clear {
+    clear: both;
+}
+
+#football {
+    padding-left: 45%
+}
+
+#bot {
+    margin-top: -16px
+}
