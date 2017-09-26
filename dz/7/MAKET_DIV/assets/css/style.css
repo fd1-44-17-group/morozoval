@@ -16,16 +16,8 @@ body {
     padding-right: 10px;
 }
 
-.backgrnd {
-    background-image: url(../img/ball.png);
-    background-repeat-x: no-repeat;
-    background-position: right;
-}
-
 #menu {
-    
     width: 200px;
-
     float: left;
 }
 
@@ -49,4 +41,23 @@ body {
 
 #bot {
     margin-top: -16px
+}
+
+@media screen and (max-width: 800px) {
+    #context {
+        background-image: none;
+    }
+    
+    
+    #main {
+        margin-left: 0px;
+        background: url(../img/ball.png) repeat-y 100% 0;
+        float: left;
+    } 
+    
+    #menu {
+        width: 100%;
+        background-color: yellow;
+        float: right;
+    }
 }

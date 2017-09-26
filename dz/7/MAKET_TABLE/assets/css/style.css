@@ -46,3 +46,20 @@ table {
 #sport {
     padding-left: 22px;
 }
+
+#menubot {
+    display: none;
+}
+
+
+@media screen and (max-width: 400px) {
+    #menubot {
+        display: block;
+        background-color: yellow;
+        padding-top: 10px;
+    }
+    
+    #menu {
+        display: none;
+    }
+}
