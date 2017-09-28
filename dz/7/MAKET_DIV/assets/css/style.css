@@ -2,7 +2,8 @@ body {
     margin: auto;
 }
 
-#top,#bot {
+#top,
+#bot {
     text-align: center;
     padding: 20px;
     background-color: #6495ED;
@@ -11,6 +12,7 @@ body {
     font-size: 20px;
     text-transform: uppercase;
 }
+
 #image {
     float: left;
     padding-right: 10px;
@@ -19,6 +21,9 @@ body {
 #menu {
     width: 200px;
     float: left;
+    position: relative;
+    top: : 50%;
+    transform: translateY(-50%);
 }
 
 #main {
@@ -27,8 +32,8 @@ body {
 }
 
 #context {
-    background: url(../img/background.png) repeat-y, 
-                url(../img/ball.png) repeat-y 100% 0;
+    background: url(../img/background.png) repeat-y,
+    url(../img/ball.png) repeat-y 100% 0;
 }
 
 #clear {
@@ -43,21 +48,22 @@ body {
     margin-top: -16px
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
     #context {
         background-image: none;
     }
-    
-    
+
+
     #main {
         margin-left: 0px;
         background: url(../img/ball.png) repeat-y 100% 0;
         float: left;
-    } 
-    
+    }
+
     #menu {
         width: 100%;
         background-color: yellow;
         float: right;
+        transform: none
     }
 }
