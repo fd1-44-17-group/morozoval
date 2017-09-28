@@ -1,0 +1,38 @@
+body {
+    line-height: 25px;
+}
+
+.fontFamily {
+    font-family: 'Saira', sans-serif;
+}
+
+div {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 488px;
+    padding-bottom: 40px;
+}
+
+.greyFont {
+    padding: 5px;
+    background-color: whitesmoke;
+    min-width: 440px;
+    font-family: none;
+} 
+
+i {
+    opacity: 0.5;
+}
+
+.red {
+  color: DarkRed ;  
+} 
+
+.blue {
+    color: RoyalBlue  ;
+}
+
+.green {
+    color: CadetBlue    ;
+}
