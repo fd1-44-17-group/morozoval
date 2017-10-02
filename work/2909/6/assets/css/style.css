@@ -1,0 +1,163 @@
+.folderBack {
+    position: relative;
+    top: 20px;
+    width: 500px;
+    height: 300px;
+    background-color: peru;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+.folderBack::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 200px;
+    height: 60px;
+    background-color: peru;
+    border-radius: 10px;
+}
+
+.folderFront {
+    position: absolute;
+    top: 135px;
+    width: 500px;
+    height: 300px;
+    background-color: gold;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.file {
+    position: absolute;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.first {
+    top: 60px;
+    left: 63px;
+    width: 390px;
+    height: 270px;
+    z-index: 2;
+}
+
+
+.first:hover {
+    top: 60px;
+    left: 300px;
+    width: 390px;
+    height: 270px;
+    z-index: 2;
+}
+
+
+.second {
+    top: 75px;
+    left: 53px;
+    width: 410px;
+    height: 270px;
+    z-index: 3;
+}
+
+
+.second:hover {
+    top: 75px;
+    left: 300px;
+    width: 410px;
+    height: 270px;
+    z-index: 3;
+}
+
+.third {
+    top: 90px;
+    left: 43px;
+    width: 430px;
+    height: 270px;
+    z-index: 4;
+}
+
+.third:hover {
+    top: 90px;
+    left: 300px;
+    width: 430px;
+    height: 270px;
+    z-index: 4;
+}
+
+.circles {
+    top: 2px;
+    left: 10px;
+    border: 10px solid red;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-radius: 20px;
+}
+
+.circles::before {
+    content: "";
+    display: block;
+    top: -10px;
+    left: 12px;
+    border: 10px solid orange;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-radius: 20px;
+}
+
+.circles::after {
+
+    content: "";
+    display: block;
+    top: -30px;
+    left: 35px;
+    border: 10px solid green;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-radius: 20px;
+}
+
+.menu {
+    position: relative;
+    border: 2px solid grey;
+    width: 10px;
+    height: 0px;
+    left: 365px;
+    top: 4px;
+}
+
+.left {
+    left: 385px;
+}
+
+.leftleft {
+    left: 405px;
+}
+
+.menu::before {
+    content: "";
+    display: block;
+    border: 2px solid grey;
+    width: 10px;
+    height: 0px;
+    position: relative;
+    top: 4px;
+    left: -2px;
+}
+
+.menu::after {
+    content: "";
+    display: block;
+    border: 2px solid grey;
+    width: 10px;
+    height: 0px;
+    position: relative;
+    top: 6px;
+    left: -2px;
+}

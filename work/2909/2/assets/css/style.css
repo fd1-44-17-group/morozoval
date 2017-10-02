@@ -1,0 +1,52 @@
+body {
+    background-color: darkcyan;
+    width: 97vw;
+    height: 100vw;
+    margin: 0;
+} 
+
+.visible {
+    border: 1px solid black;
+    margin: 18.2vw;
+
+} 
+
+.invisible {
+    margin: 10vw;
+}
+
+.red {
+    width: 10vw;
+    height: 8vw;
+    background-color: red;
+    border: 1px solid black;
+    float: left;
+}
+
+.green {
+    width: 20vw;
+    height: 15vw;
+    background-color: green;
+    margin-left: 20vw;
+    border: 1px solid black;
+    position: top right;
+}
+
+.blue {
+    width: 10vw;
+    height: 15vw;
+    background-color: blue;
+    border: 1px solid black;
+    float: left;
+    
+}
+
+.yellow {
+    width: 20vw;
+    height: 8vw;
+    margin-left: 20vw;
+    margin-top: 7vw;
+    background-color: yellow;
+    border: 1px solid black;
+}
+

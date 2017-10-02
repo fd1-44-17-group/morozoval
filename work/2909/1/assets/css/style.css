@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.font {
+    width: 97.5vw;
+    background-color: oldlace;
+}
+
+.button {
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    top: 40%;
+    left: 5%;
+}
+
+.text {
+    margin-left: 300px;
+}
