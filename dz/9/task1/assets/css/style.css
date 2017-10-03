@@ -1,0 +1,62 @@
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.blue {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background-color: RoyalBlue;
+    top: 40px;
+    left: 200px;
+    color: white;
+    font-size: 29px;
+    font-family: 'Nunito', sans-serif;
+    padding: 4px;
+}
+
+.blue::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 207px;
+    border: 3px solid RoyalBlue;
+    height: 0;
+    width: 80vw;
+}
+
+.red {
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    background-color: FireBrick;
+    top: 120px;
+    left: 260px;
+    height: 35px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.red::before {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 298px;
+    border: 3px solid FireBrick;
+    height: 0;
+    width: 80vw;
+}
+
+.human {
+    
+}

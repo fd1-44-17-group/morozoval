@@ -1,0 +1,29 @@
+body>div {
+    width: 50vw;
+    height: 50vw;
+    background-color: DarkOliveGreen;
+    position: relative;
+}
+
+div>div:nth-of-type(1) {
+    position: absolute;
+    font-size: 180vw;
+    line-height: 30%;
+    padding: 0;
+    top: -7%;
+    left: -13.3%;
+    width: 100vw;
+    height: 100vw;
+    color: orange;
+}
+
+div>div:nth-of-type(2) {
+    position: absolute;
+    font-size: 102vw;
+    line-height: 30%;
+    padding: 0;
+    top: 18%;
+    left: 13.7%;
+    width: 100vw;
+    height: 100vw;
+}
