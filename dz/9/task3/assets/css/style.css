@@ -1,0 +1,246 @@
+body>div {
+    width: 43vw;
+    height: 10vw;
+    position: relative;
+}
+div>div:nth-of-type(-n+10) {
+    font-size: 3vw;
+    position: relative;
+    float: left;
+    width: 3vw;
+    text-align: center;
+    margin: 0.6vw;
+    text-decoration: underline;
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+#line {
+    position: absolute;
+    width: 41vw;
+    height: 0.6vw;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 2%;
+    z-index: -1;
+}
+
+.orange {
+    position: absolute;
+    width: 3vw;
+    height: 0.6vw;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 2%;
+}
+
+.orange1 {
+    left: 1.5%;
+}
+
+.orange2 {
+    left: 11.3%;
+}
+
+.orange3 {
+    left: 20.9%;
+}
+
+.orange4 {
+    left: 30.7%;
+}
+
+.orange5 {
+    left: 40.6%;
+}
+
+.orange6 {
+    left: 50.4%;
+}
+
+.orange7 {
+    left: 60%;
+}
+
+.orange8 {
+    left: 69.9%;
+}
+
+.orange9 {
+    left: 79.5%;
+}
+
+.orange10 {
+    left: 89%;
+    width: 3.5vw;
+}
+
+
+div>div:nth-of-type(-n+10):hover {
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+}
+
+div>div:nth-of-type(1):hover ~ .orange1 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(2):hover ~ .orange2 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(3):hover ~ .orange3 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(4):hover ~ .orange4 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(5):hover ~ .orange5 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(6):hover ~ .orange6 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(7):hover ~ .orange7 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(8):hover ~ .orange8 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(9):hover ~ .orange9 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(10):hover ~ .orange10 {
+    background-color: orange;
+}
+
+
+
+
+
+
+/*div>div:nth-of-type(-n+10) {
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 3px;
+    text-decoration: underline;
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+#line {
+    position: absolute;
+    width: 255px;
+    height: 4px;
+    background-color: whitesmoke;
+    top: 40px;
+    left: 10px;
+    z-index: -1;
+}
+
+.orange {
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    background-color: whitesmoke;
+    top: 40px;
+}
+
+.orange1 {
+    left: 10px;
+}
+
+.orange2 {
+    left: 36px;
+}
+
+.orange3 {
+    left: 62px;
+}
+
+.orange4 {
+    left: 88px;
+}
+
+.orange5 {
+    left: 114px;
+}
+
+.orange6 {
+    left: 140px;
+}
+
+.orange7 {
+    left: 166px;
+}
+
+.orange8 {
+    left: 192px;
+}
+
+.orange9 {
+    left: 218px;
+}
+
+.orange10 {
+    left: 244px;
+}
+
+
+div>div:nth-of-type(-n+10):hover {
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+}
+
+div>div:nth-of-type(1):hover ~ .orange1 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(2):hover ~ .orange2 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(3):hover ~ .orange3 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(4):hover ~ .orange4 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(5):hover ~ .orange5 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(6):hover ~ .orange6 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(7):hover ~ .orange7 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(8):hover ~ .orange8 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(9):hover ~ .orange9 {
+    background-color: orange;
+}
+
+div>div:nth-of-type(10):hover ~ .orange10 {
+    background-color: orange;
+}
+
+*/
