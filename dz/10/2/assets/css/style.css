@@ -1,0 +1,323 @@
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+}
+
+.one {
+    position: relative;
+}
+
+.two {
+    position: absolute;
+    top: 60px;
+}
+
+.three {
+    position: absolute;
+    top: 112px;
+}
+
+.four {
+    position: absolute;
+    top: 164px;
+}
+
+.five {
+    position: absolute;
+    top: 216px;
+}
+
+.six {
+    position: absolute;
+    top: 268px;
+}
+
+.seven {
+    position: absolute;
+    top: 320px;
+}
+
+.eight {
+    position: absolute;
+    top: 372px;
+}
+
+.nine {
+    position: absolute;
+    top: 424px;
+}
+
+.ten {
+    position: absolute;
+    top: 476px;
+}
+
+.text {
+    font-size: 40px;
+    text-align: center;
+}
+
+.black {
+    background-color: grey;
+}
+
+.white {
+    background-color: white;
+}
+
+.figure {
+    background-image: url(../../assets/img/chess.png);
+    background-repeat: no-repeat;
+}
+
+.ladya {
+    background-position-x: -103px;
+}
+
+.kon {
+    background-position-x: -209px;
+}
+
+.slon {
+    background-position-x: -156px;
+}
+
+.ferz {
+    background-position-x: -49px;
+}
+
+.korol {
+    background-position-x: 5px;
+}
+
+.peshka {
+    background-position-x: -262px;
+}
+
+.wh,
+.LadyaBefore,
+.KonBefore,
+.SlonBefore,
+.KorolBefore,
+.FerzBefore,
+.PeshkaAfter {
+    background-position-y: -49px;
+}
+
+body>div:nth-of-type(n+4):not(:nth-of-type(n+8))>div:nth-of-type(n+2):not(:nth-of-type(10)) {
+    transition: background-color 2s, box-shadow 2s;
+} 
+
+body>div:nth-of-type(n+4):not(:nth-of-type(n+8))>div:nth-of-type(n+2):not(:nth-of-type(10)):hover {
+    background-color: #6600ff;
+    cursor: pointer;
+    box-shadow: 0 0 25px 3px rgba(66,0,255,1);
+}
+
+.one::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    z-index: 10;
+    left: 520px;
+}
+
+.whitesmoke {
+    background-color: rgba(128,128,128,0.6);
+}
+
+
+.transition {
+    transition: transform 4s;
+    cursor: pointer;
+}
+
+.transition:hover {
+    box-shadow: 0 0 50px 5px rgba(0,0,0,1);
+    outline: 2px solid black;
+}
+
+
+
+.LadyaBefore2,
+.LadyaBefore {
+    left: 520px;
+    top: 0px;
+    background-position-x: -103px;
+}
+
+.KonBefore2,
+.KonBefore {
+    left: 572px;
+    top: 0px;
+    background-position-x: -209px;
+}
+
+.SlonBefore2,
+.SlonBefore {
+    left: 624px;
+    top: 0px;
+    background-position-x: -156px;
+}
+
+.KorolBefore2,
+.KorolBefore {
+    left: 676px;
+    top: 0px;
+    background-position-x: 5px;
+}
+
+.FerzBefore2,
+.FerzBefore {
+    left: 728px;
+    top: 0px;
+    background-position-x: -49px;
+}
+
+
+.LadyaAfter:hover {
+    transform: translateX(468px) rotate(180deg);
+}
+
+.LadyaAfter:hover~.LadyaBefore,
+.LadyaAfter:hover~.LadyaBefore2 {
+    transform: translateX(-468px) rotate(360deg);
+}
+
+.LadyaAfter2:hover,
+.P8:hover {
+    transform: translateX(104px) rotate(180deg) ;
+}
+
+.LadyaAfter2:hover~.LadyaBefore,
+.LadyaAfter2:hover~.LadyaBefore2,
+.P8:hover~.PeshkaAfter,
+.P8:hover~.PeshkaAfter2 {
+    transform: translateX(-104px) rotate(360deg);
+}
+
+
+.KonAfter:hover {
+    transform: translateX(468px) rotate(180deg);
+}
+
+.KonAfter:hover~.KonBefore,
+.KonAfter:hover~.KonBefore2 {
+    transform: translateX(-468px) rotate(360deg);
+}
+
+.KonAfter2:hover,
+.P6:hover {
+    transform: translateX(208px) rotate(180deg);
+}
+
+.KonAfter2:hover~.KonBefore,
+.KonAfter2:hover~.KonBefore2,
+.P6:hover~.PeshkaAfter,
+.P6:hover~.PeshkaAfter2 {
+    transform: translateX(-208px) rotate(360deg);
+}
+
+.SlonAfter:hover,
+.P1:hover {
+    transform: translateX(468px) rotate(180deg);
+}
+
+.SlonAfter:hover~.SlonBefore,
+.SlonAfter:hover~.SlonBefore2,
+.P1:hover~.PeshkaAfter,
+.P1:hover~.PeshkaAfter2 {
+    transform: translateX(-468px) rotate(360deg);
+}
+
+.SlonAfter2:hover,
+.P4:hover {
+    transform: translateX(312px) rotate(180deg);
+}
+
+.SlonAfter2:hover~.SlonBefore,
+.SlonAfter2:hover~.SlonBefore2,
+.P4:hover~.PeshkaAfter,
+.P4:hover~.PeshkaAfter2 {
+    transform: translateX(-312px) rotate(360deg);
+}
+
+
+.KorolAfter:hover,
+.P2:hover {
+    transform: translateX(416px) rotate(180deg);
+}
+
+.KorolAfter:hover~.KorolBefore,
+.KorolAfter:hover~.KorolBefore2,
+.P2:hover~.PeshkaAfter,
+.P2:hover~.PeshkaAfter2 {
+    transform: translateX(-416px) rotate(360deg);
+}
+
+
+.FerzAfter:hover {
+    transform: translateX(520px) rotate(180deg);
+}
+
+.FerzAfter:hover~.FerzBefore,
+.FerzAfter:hover~.FerzBefore2 {
+    transform: translateX(-520px) rotate(360deg);
+}
+
+.PeshkaAfter2,
+.PeshkaAfter {
+    position: absolute;
+    left: 520px;
+    top: 0px;
+    background-position-x: -262px;
+}
+
+.P3:hover {
+    transform: translateX(364px) rotate(180deg);
+}
+
+.P3:hover~.PeshkaAfter,
+.P3:hover~.PeshkaAfter2 {
+    transform: translateX(-364px) rotate(360deg);
+}
+
+
+.P5:hover {
+    transform: translateX(260px) rotate(180deg);
+}
+
+.P5:hover~.PeshkaAfter,
+.P5:hover~.PeshkaAfter2 {
+    transform: translateX(-260px) rotate(360deg);
+}
+
+.P7:hover {
+    transform: translateX(156px) rotate(180deg);
+}
+
+.P7:hover~.PeshkaAfter,
+.P7:hover~.PeshkaAfter2 {
+    transform: translateX(-156px) rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
