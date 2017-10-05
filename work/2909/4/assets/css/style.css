@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.first {
+    position: absolute;
+    left: 10vw;
+    top: 25vw;
+    border: 7vw solid transparent; /* Прозрачные границы */
+    border-bottom: 7vw solid green; /* Добавляем треугольник */
+    width: 0px;
+}
+
+.second {
+    position: absolute;
+    right: 10vw;
+    top: 25vw;
+    border: 7vw solid transparent; /* Прозрачные границы */
+    border-bottom: 7vw solid green; /* Добавляем треугольник */
+    width: 0px;
+}
+
+.third {
+    position: absolute;
+    right: 42vw;
+    top: 18vw;
+    border: 7vw solid transparent; /* Прозрачные границы */
+    border-top: 20vw solid green; /* Добавляем треугольник */
+    width: 0px;
+}

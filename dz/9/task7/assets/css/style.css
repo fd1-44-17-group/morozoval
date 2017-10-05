@@ -1,0 +1,135 @@
+body>div:first-child {
+    width: 46vw;
+    height: 55vw;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+body>div>div:first-child {
+    width: 40vw;
+    height: 5vw;
+    background-color: grey;
+    opacity: 0.7;
+    margin-left: 3vw;
+    position: absolute;
+    top: 3vw;
+}
+
+body>div>div:first-child>span {
+    color: white;
+    font-size: 3vw;
+    line-height: 5vw;
+    padding-left: 3vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.menu {
+    width: 17vw;
+}
+
+.TopLeft {
+    position: absolute;
+    top: 12vw;
+    left: 4vw;
+}
+
+.TopRight {
+    position: absolute;
+    top: 12vw;
+    left: 27vw;
+}
+
+.BotLeft {
+    position: absolute;
+    top: 35vw;
+    left: 4vw;
+}
+
+.BotRight {
+    position: absolute;
+    top: 35vw;
+    left: 27vw;
+}
+
+body>div>div>div:not(#item1) {
+    margin-top: -10px;
+    line-height: 3.5vw;
+    height: 3.5vw;
+    color: slateblue;
+    border-radius: 3px;
+    padding-left: 0.5vw;
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+strong {
+    color: black;
+}
+
+body>div>div>div:not(:first-child):not(#item1):hover {
+    color: whitesmoke;
+    background-color: slateblue;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    padding-left: 2vw;
+
+}
+
+hr {
+    display: block;
+    margin-top: -0.3vw;
+    position: relative;
+    z-index: 1;
+}
+
+#item1 {
+    position: absolute;
+    width: 1.9vw;
+    height: 1.8vw;
+    top: 85.5%;
+    left: 14vw;
+    background-color: slateblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2vw;
+    border-radius: 3px;
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 10;
+}
+
+
+#desk {
+    font-weight: bolder;
+    white-space: pre;
+}
+
+@media screen and (max-width: 400px) {
+
+    body>div:first-child {
+        width: 22vw;
+        height: 85vw;
+    }
+
+    .TopRight {
+        position: absolute;
+        top: 51vw;
+        left: 4vw;
+    }
+
+    .BotRight {
+        position: absolute;
+        top: 73vw;
+        left: 4vw;
+    }
+
+    body>div>div:first-child {
+        width: 16vw;
+
+    }
+}

@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    width: 100vw;
+    background-color: lightcyan;
+}
+
+
+
+.XXXXL {
+    float: right;
+    width: 30vw;
+    height: 50vw;
+    background-color: grey;
+    margin-right: 11.5vw;
+    margin-top: 10vw;
+}
+
+.XXXL {
+    float: right;
+    width: 15vw;
+    height: 50vw;
+    background-color: grey;
+    margin-right: 5vw;
+    margin-top: 10vw;
+}
+
+.XXL {
+    float: right;
+    width: 7.5vw;
+    height: 50vw;
+    background-color: grey;
+    margin-right: 5vw;
+    margin-top: 10vw;
+}
+
+.XL {
+    float: right;
+    width: 3.75vw;
+    height: 50vw;
+    background-color: grey;
+    margin-right: 5vw;
+    margin-top: 10vw;
+}
+
+.L {
+    float: right;
+    width: 1.87vw;
+    height: 50vw;
+    background-color: grey;
+    margin-right: 5vw;
+    margin-top: 10vw;
+}
+
+@media screen and (max-width:400px) {
+    
+    .XXXXL {
+        float: none;
+        margin-left: 30vw;
+    }
+    
+    .XXXL {
+        float: none;
+        margin-left: 30vw;
+    }
+    
+    .XXL {
+        float: none;
+        margin-left: 30vw;
+    }
+    
+    .XL {
+        float: none;
+        margin-left: 30vw;
+    }
+    
+    .L {
+        float: none;
+        margin-left: 30vw;
+    }
+}

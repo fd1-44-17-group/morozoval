@@ -1,0 +1,29 @@
+ul {
+    line-height: 40px;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+li {
+    width: 140px;
+    list-style-type: none;
+    color: black;
+    font-size: 19px;
+    font-family: arial;
+    font-weight: bolder;
+    height: 40px;
+    padding: 3px;
+    margin: 7px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+li:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+#huge {
+    height: 55px;
+    line-height: 27px
+}

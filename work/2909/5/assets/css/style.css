@@ -1,0 +1,63 @@
+body {
+    background-image: url(../img/Screenshot_1.png);
+    background-size: 10px 10px;
+    
+}
+.text {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    text-align: left;
+}
+
+.one {
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.two {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.three {
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.four {
+    position: absolute;
+    top: 30px;
+    left: 190px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.five {
+    position: absolute;
+    top: 30px;
+    left: 210px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.texts {
+    position: absolute;
+    top: 0px;
+    left: 225px;
+}

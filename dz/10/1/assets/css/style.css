@@ -1,0 +1,36 @@
+body>div:nth-of-type(n) {
+    float: left;
+}
+
+div div {
+    width: 15px;
+    border: 1px solid black;
+    text-align: center;
+    transition: transform 2s linear;
+    transition-delay: 3s;
+    
+}
+
+div:nth-of-type(2) div:nth-of-type(2),
+div:nth-of-type(1) div:nth-of-type(3),
+div:nth-of-type(2) div:nth-of-type(3),
+div:nth-of-type(1) div:nth-of-type(5) {
+    transform: translateX(17px);
+}
+
+div:nth-of-type(3) div:nth-of-type(2),
+div:nth-of-type(2) div:nth-of-type(5),
+div:nth-of-type(2) div:nth-of-type(6),
+div:nth-of-type(3) div:nth-of-type(6) {
+    transform: translateX(-17px);
+}
+
+div:nth-of-type(1) div:nth-of-type(4),
+div:nth-of-type(1) div:nth-of-type(6) {
+    transform: translateX(34px);
+}
+
+div:nth-of-type(3) div:nth-of-type(3),
+div:nth-of-type(3) div:nth-of-type(4) {
+    transform: translateX(-34px);
+}
