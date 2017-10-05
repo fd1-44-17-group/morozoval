@@ -1,0 +1,36 @@
+div {
+    width: 95vw;
+    line-height: 25px;
+    font-family: 'Saira', sans-serif;
+}
+
+.grey {
+    border: 1px solid grey;
+    height: 40px;
+    line-height: 38px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+}
+
+.greys {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: whitesmoke;
+} 
+
+.scroll {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 55px;
+    line-height: 45px;
+} 
+
+i {
+    opacity: 0.5;
+}
+
+.green {
+    color: CadetBlue    ;
+} 

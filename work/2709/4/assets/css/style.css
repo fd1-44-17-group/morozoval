@@ -1,0 +1,28 @@
+body div  {
+    height: 100%;
+    background-color: gainsboro;
+    min-width: 220px;
+    width: 55vw;
+    float: right;
+    padding: 10px;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+
+
+h3 {
+    float: right;
+    clear: both;
+    color: darkred;
+}
+
+p {
+    float: right;
+    clear: both;
+}
+
+span {
+    float: right;
+}
+
