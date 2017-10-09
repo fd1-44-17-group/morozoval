@@ -1,0 +1,105 @@
+.smiley {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 110px;
+}
+
+.smile {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    
+    left: 47px;
+    top: 53px;
+    
+    border-radius: 110px;
+    border: 10px solid black;
+    clip: rect(70px, auto, auto, auto);
+}
+
+.circleSmile {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 47px;
+    top: 120px;
+    border-radius: 110px;
+    border: 5px solid black;
+}
+
+.circleSmile::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 130px;
+    top: -5px;
+    border-radius: 110px;
+    border: 5px solid black;
+}
+
+.eyeLeft {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 61px;
+    top: 80px;
+    border-radius: 110px;
+    border: 8px solid black;
+    clip: rect(auto,auto,25px, auto);
+}
+
+.eyeRight {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 130px;
+    top: 80px;
+    border-radius: 110px;
+    border: 8px solid black;
+    clip: rect(auto,auto,25px, auto);
+}
+
+.circleEyeLeft::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 65px;
+    top: -4px;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.circleEyeRight::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left:65px;
+    top:-4px;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.circleEyeLeft {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left:61px;
+    top:101px;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.circleEyeRight {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left:99px;
+    top:101px;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
