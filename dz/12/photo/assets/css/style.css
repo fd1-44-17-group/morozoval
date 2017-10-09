@@ -1,0 +1,126 @@
+input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    text-align: center;
+    margin-left: 18px;
+}
+
+.common {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 480px;
+    background-color: whitesmoke;
+    opacity: 0.3;
+    border: 0.5px solid black;
+}
+
+[for="first"] {
+    left: 420px;
+}
+
+[for="second"] {
+    left: 440px;
+}
+
+[for="third"] {
+    left: 460px;
+}
+
+[for="fourth"] {
+    left: 480px;
+}
+
+#first:checked~.L1,
+#second:checked~.L2,
+#third:checked~.L3,
+#fourth:checked~.L4 {
+    background-color: grey;
+    opacity: 0.3;
+    width: 17px;
+    height: 17px;
+}
+
+#first[name="myradio"]:checked+div,
+#second[name="myradio"]:checked+div,
+#third[name="myradio"]:checked+div,
+#fourth[name="myradio"]:checked+div {
+    display: block;
+    margin-left: 60px;
+    width: 844px;
+    height: 508px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+#first[name="myradio"]:checked+div {
+    background-image: url(../img/1.jpg);
+}
+
+#second[name="myradio"]:checked+div {
+    background-image: url(../img/2.jpg);
+}
+
+
+#third[name="myradio"]:checked+div {
+    background-image: url(../img/3.jpg);
+}
+
+#fourth[name="myradio"]:checked+div {
+    background-image: url(../img/4.jpg);
+}
+
+#arrow1,
+#arrow2 {
+    background-color: white;
+    position: absolute;
+    top: -510px;
+    width: 40px;
+    height: 510px;
+    border-radius: 10px;
+    line-height: 430px;
+    background-color: whitesmoke;
+    font-size: 70px;
+    color: grey;
+    transition: font-size 0.1s;
+}
+
+#arrow1:hover,
+#arrow2:hover {
+    font-size: 80px;
+    color: black;
+    text-shadow: 
+}
+
+#arrow1 {
+    left: 900px;
+}
+
+#arrow2 {
+    left: -10px;
+}
+
+.arrows {
+    position: relative;
+    display: none;
+}
+
+#first:checked~.arrows._1 {
+    display: block;
+}
+
+#second:checked~.arrows._2 {
+    display: block;
+}
+
+#third:checked~.arrows._3 {
+    display: block;
+}
+
+#fourth:checked~.arrows._4 {
+    display: block;
+}
