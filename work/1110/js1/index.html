@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <script>
+        var name = prompt("Введите имя");
+        var surname = prompt("Введите фамилию");
+        var otch = prompt("Введите отчество");
+        var age = prompt("Введите возраст");
+        for (var i = 0; i < 3; i++) {
+            if (isFinite(age) != true) {
+                alert("не корректно введен возраст, попробуйте еще раз");
+                age = prompt("Введите возраст");
+            }
+            if (isFinite(age) == true) {
+                break;
+            }
+        }
+        if (age > 200) {
+            alert("Привет " + name + "! Ты врун, столько не живут!");
+        }
+        else {
+            alert("Привет " + name + "! и тебе всего-то " + age + "?");
+        }
+    </script>
+</body>
+
+</html>
