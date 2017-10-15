@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        var Arr = new Array();
+        var i = 1,
+            j = 0;
+        var answer;
+        do {
+            answer = prompt("Введите " + i + " элемнт массива: ");
+            if (isNaN(answer)) {
+                alert("Вводить можно только числовые значения! попробуйте еще раз")
+                continue;
+            }
+            Arr[Arr.length] = answer;
+            i++;
+        } while (answer != '')
+
+        while (Arr.length > 1) {
+            document.write("Arr[" + j + "] = " + Arr.shift());
+            document.write("<pre>\n</pre>")
+            j++;
+        }
+    </script>
+</body>
+
+</html>

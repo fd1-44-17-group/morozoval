@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        var choice = prompt("Введите название цикла который хотите использовать: for, do, while");
+        switch (choice) {
+            case 'for':
+                var age = prompt("Введите возраст:");
+                Fun_for();
+                break;
+
+            case 'do':
+                Fun_do();
+                break;
+
+            case 'while':
+                var age = prompt("Введите возраст:");
+                Fun_while();
+                break;
+            default:
+                break;
+        }
+        alert(age);
+
+        function Fun_for() {
+            for (var i = 0; age < 1 || age > 199 || isNaN(age);) {
+                age = prompt("Некорректный вод, попробуйте еще раз");
+            }
+        }
+
+        function Fun_do() {
+            do {
+                age = prompt("Введите возраст:");
+            } while (age < 1 || age > 199 || isNaN(age));
+        }
+
+        function Fun_while() {
+            while (age < 1 || age > 199 || isNaN(age)) {
+                age = prompt("Некорректный вод, попробуйте еще раз");
+            }
+        }
+    </script>
+</body>
+
+</html>
