@@ -1,0 +1,20 @@
+.FlexConrainer {
+    min-width: 222px;
+    max-width: 222px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.black {
+    background-color: grey;
+}
