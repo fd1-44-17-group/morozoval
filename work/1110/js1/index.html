@@ -14,11 +14,11 @@
         var otch = prompt("Введите отчество");
         var age = prompt("Введите возраст");
         for (var i = 0; i < 3; i++) {
-            if (isFinite(age) != true) {
+            if (!isFinite(age)) {
                 alert("не корректно введен возраст, попробуйте еще раз");
                 age = prompt("Введите возраст");
             }
-            if (isFinite(age) == true) {
+            else {
                 break;
             }
         }
