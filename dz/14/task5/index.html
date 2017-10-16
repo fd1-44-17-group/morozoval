@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        var i = 1;
+        var choice = prompt("Выберите цикл do, while");
+        switch (choice) {
+            case 'do':
+                alert("Используется кострукция do..while");
+                Fun_do();
+                break;
+            case 'while':
+                alert("Используется кострукция while");
+                Fun_while();
+                break;
+            default:
+                break;
+        }
+
+        function Fun_do() {
+            do {
+                document.write(i + "<pre>\n</pre>");
+                i++;
+            } while (i < 11)
+        }
+
+
+        function Fun_while() {
+            while (i < 11) {
+                document.write(i + "<pre>\n</pre>");
+                i++;
+            }
+        }
+    </script>
+</body>
+
+</html>
