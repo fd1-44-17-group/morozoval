@@ -1,0 +1,133 @@
+input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    text-align: center;
+    margin-left: 18px;
+}
+
+.navigation {
+    position: absolute;
+    left: 450px;
+    top: 450px;
+    width: 150px;
+    height: 25px;
+
+}
+
+.pin {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.3;
+    border: 0.5px solid black;
+}
+[for="first"] {
+    left: 0px;
+}
+
+[for="second"] {
+    left: 20px;
+}
+
+[for="third"] {
+    left: 40px;
+}
+
+[for="fourth"] {
+    left: 60px;
+}
+
+
+.first:checked~.navigation>.pin_active[for=first],
+.second:checked~.navigation>.pin_active[for=second],
+.third:checked~.navigation>.pin_active[for=third],
+.fourth:checked~.navigation>.pin_active[for=fourth] {
+    background-color: grey;
+    opacity: 0.3;
+    width: 17px;
+    height: 17px;
+}
+
+.first[name="myradio"]:checked+div,
+.second[name="myradio"]:checked+div,
+.third[name="myradio"]:checked+div,
+.fourth[name="myradio"]:checked+div {
+    display: block;
+    margin-left: 60px;
+    width: 844px;
+    height: 508px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.first[name="myradio"]:checked+div {
+    background-image: url(../img/1.jpg);
+}
+
+.second[name="myradio"]:checked+div {
+    background-image: url(../img/2.jpg);
+}
+
+
+.third[name="myradio"]:checked+div {
+    background-image: url(../img/3.jpg);
+}
+
+.fourth[name="myradio"]:checked+div {
+    background-image: url(../img/4.jpg);
+}
+
+.arrows__left,
+.arrows__right {
+    background-color: white;
+    position: absolute;
+    top: -510px;
+    width: 40px;
+    height: 510px;
+    border-radius: 10px;
+    line-height: 430px;
+    background-color: whitesmoke;
+    font-size: 70px;
+    color: grey;
+    transition: font-size 0.1s;
+}
+
+.arrows__left:hover,
+.arrows__right:hover {
+    font-size: 80px;
+    color: black;
+}
+
+.arrows__left {
+    left: 900px;
+}
+
+.arrows__right {
+    left: -10px;
+}
+
+.arrows {
+    position: relative;
+    display: none;
+}
+
+.first:checked~.arrows_active1 {
+    display: block;
+}
+
+.second:checked~.arrows_active2 {
+    display: block;
+}
+
+.third:checked~.arrows_active3 {
+    display: block;
+}
+
+.fourth:checked~.arrows_active4 {
+    display: block;
+}
