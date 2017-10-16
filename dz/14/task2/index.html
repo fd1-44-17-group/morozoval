@@ -13,7 +13,10 @@
         
         for (var i = 1; i < 10; i++) {
             Arr1[Arr1.length] = i;
-            if (i % 2 != 0) {
+            if (i % 2 == 0) {
+                continue;
+            }
+            else {
                 Arr2[Arr2.length] = i;
             }
         }
