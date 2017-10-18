@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+
+
+<body>
+    <script>
+        var count = prompt("Введите количство кнопок на странице: ")
+        for (var i = 0; i < count; i++) {
+            var parent = document.body;
+            var btn = document.createElement('button');
+            // btn.innerHTML = i;
+            parent.appendChild(btn);
+            btn.style.width = "100px";
+            btn.style.height = "50px";
+            btn.style.margin = "10px";
+        }
+        var buttons = document.getElementsByTagName('button');
+        for (var i = 0; i < count; i++) {
+            buttons[i].addEventListener("click", zz(i) );
+        }
+        function zz(a) {
+            return function() { buttons[a].innerHTML = a; console.log(this, a); } 
+        }
+    </script>
+</body>
+
+</html>
